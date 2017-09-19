@@ -1,0 +1,460 @@
+body {
+  background-color: #89cff0;
+  margin: 0;
+  font-family: 'Averia Sans Libre', cursive;
+
+}
+
+h1 {
+font-family: 'Averia Sans Libre', cursive;
+
+}
+
+/*video {
+  object-fit: cover;
+
+}*/
+
+div.belowGallery {
+  position: relative;
+  top: 430px;
+}
+
+div.outer {
+  z-index: -2;
+  overflow: hidden;
+  position: absolute;
+  height: 100px; 
+  width: 100%; 
+  transform: rotate(-3deg);
+  left: -10px;
+
+}
+
+div.outer2 {
+  z-index: ;
+  overflow: hidden;
+  position: absolute;
+  height: 100px; 
+  width: 100%; 
+  transform: rotate(-3deg);
+
+}
+
+div.pusherRight {
+   overflow: hidden;
+   position: fixed;
+   height: 100%;
+   width: 120px;
+   right: 0px;
+   top: 0px;
+   margin: 0;
+}
+
+div.pedestrian {
+  position: absolute;
+  height: 100px; 
+  width: 100%; 
+  content: url("images/pedestrian.png");
+}
+
+div.footer {
+  font-family: 'Barrio', cursive;
+  font-size: 30pt bold;
+  position: relative;
+  top: 20px;
+  color: yellow;
+  height: 50px;
+  width: 110%;
+  background-color: #323232;
+  text-align: center;
+  line-height: 50px;
+}
+
+div.video {
+  border: solid 2px yellow;
+  width: 480px;
+  height: auto;
+  position: relative;
+  color: yellow;
+  text-align: center;
+  line-height: 315px;
+}
+
+div.centerRoad {
+   position: relative;
+   height: 2px;
+   width: 110%;
+   background-color: yellow;
+   left: -10px;
+   top: 0;
+   z-index: -2;
+}
+
+div.sidewalk {
+   transform: rotate(0.5deg);
+   position: absolute;
+   height: 200%;
+   width: 90px;
+   background-color: #8f8f8f;
+   top: 0;
+   z-index: -1;
+   border: solid 2pt blue;
+}
+
+div.sidewalkLine {
+  position: relative;
+  background-color: white;
+  height: 100%;
+  left: 40%;
+  width: 5px;
+}
+
+div.leftroad {
+   transform: rotate(-3deg);
+   position: fixed;
+   height: 100%;
+   width: 5px;
+   background-color: yellow;
+   left: 3%;
+   top: 0;
+}
+
+div.rightroad {
+   z-index: 2;
+   transform: rotate(3deg);
+   position: fixed;
+   height: 100%;
+   width: 5px;
+   background-color: white;
+   right: 3%;
+   top: 0;
+}
+
+div.leftAsphalt {
+   transform: rotate(-3deg);
+   position: fixed;
+   height: 110%;
+   width: 60px;
+   background-color: #046e91;
+   top: 0;
+   left: 2%;
+   z-index: -1;
+}
+
+div.rightAsphalt {
+   transform: rotate(2deg);
+   position: fixed;
+   height: 110%;
+   width: 60px;
+   background-color: #046e91;
+   top: 0;
+   right: 1%;
+   z-index: -1;
+}
+
+
+div.whitedash {
+   height: 50px;
+   width: 7px;
+   margin-bottom: 30px;
+   background-color: white;
+}
+
+div.dashcontain {
+   transform: rotate(-3deg);
+   position: fixed;
+   height: 100%;
+   width: 10px;
+   border: 2px black;
+   top: 0;
+   left: 4%;
+}
+
+div.pusherLeft {
+   position: fixed;
+   height: 100%;
+   width: 120px;
+   left: 0px;
+   top: 0px;
+   margin: 0;
+}
+
+div.sign {
+  z-index: 4;
+  top: 1000px;
+  position: absolute;
+  content: url("images/sign.png");
+  width:100px;
+  height:auto;
+  right: 60px;
+}
+
+div.sign2 {
+  top: 1550px;
+  position: absolute;
+  content: url("images/sign.png");
+  width:100px;
+  height:auto;
+  left: 100px;
+}
+
+a.download:link, a.download:visited {
+  position: relative;
+  margin: auto;
+  font-size: 30px;
+  /*border-radius: 25px;*/
+  color: black;
+  padding: 20px 30px;
+  background-color: yellow;
+  text-decoration: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 2pt solid black;
+  box-shadow: 10px 10px grey;  
+
+}
+
+a.download:hover, a.download:active {
+  transform:scale(1.250,1.250);
+  background-color: red;
+  color: white;
+  box-shadow: none;  
+
+}
+
+div.counter {
+   color: black;
+   height: 50px;
+   width: 700px;
+   margin: auto;
+   text-align: center;
+}
+
+div.text {
+   position: relative;
+   text-align: center;
+   max-width: 500px;
+   margin: auto;
+   height: auto;
+   padding: 10px;
+   /*border: solid black 2px;*/ 
+   font-size: 12pt;
+   font-family: 'Averia Sans Libre', cursive; 
+   font-weight: bold;
+   color: black;
+}
+
+div.trapezoid {
+  top: 400px;
+  position: absolute;
+  border-bottom: 150px solid gray;
+  border-left: 30px solid transparent;
+  border-right: 20px solid transparent;
+  height: 0;
+  width: 650px;
+  left: 20%;
+  transform: rotate(178deg);
+  z-index: -1;
+}
+
+div.trapezoid2 {
+  top: 500px;
+  position: absolute;
+  border-bottom: 150px solid #555F61 ;
+  border-left: 20px solid transparent;
+  border-right: 10px solid transparent;
+  height: 0;
+  width: 550px;
+  left: 25%;
+  z-index: -3;
+}
+
+div.spacer {
+  position: relative;
+  margin: auto;
+  height: 80px;
+}
+
+div.spacer2 {
+  position: relative;
+  margin: auto;
+  height: 40px;
+}
+
+div.contains {
+   z-index: 3;
+   top: -120px;
+   text-align: center;
+   position: relative;
+   margin: auto;
+   width: 670px;
+   height: 80px;
+   line-height: 25px;
+   vertical-align: middle;
+   padding: 15px;
+   color: yellow;
+   background-color: #323232;
+   font-size: 12pt;
+   font-family: 'Averia Sans Libre', cursive;
+}
+
+div.disclaimer {
+   position: relative;
+   text-align: center;
+   max-width: 500px;
+   margin: auto;
+   height: auto;
+   padding: 10px;
+   font-size: 10pt;
+   font-family: 'Averia Sans Libre', cursive;
+
+}
+
+
+div.break {
+font-family: 'Barrio', cursive;
+   font-size: 60px;
+   position: relative;
+   text-align: center;
+   max-width: 600px;
+   margin: auto;
+   height: auto;
+   padding: 10px;
+   color: blackwhite;
+}
+
+div.save {
+   position: relative;
+   text-align: center;
+   max-width: 700px;
+   margin: auto;
+   height: auto;
+   padding: 10px;
+/*   border: solid black 2px;
+*/}
+
+div.pusher {
+   width: 800px;
+/*   border: solid 2px blue;
+*/ margin: auto;
+   content: url("images/pusherLogo.png");
+}
+
+div.logo {
+   position: relative;
+   max-width: 800px;
+   text-align: center;
+   margin: auto;
+}
+
+.parts {
+   max-width: 900px;
+   position: relative;
+   margin: auto;
+   content: url(images/hero1.jpg);
+}
+
+.expansion {
+   max-width: 700px;
+   position: relative;
+   margin: auto;
+   content: url(images/expansion.jpg);
+}
+
+.fix{
+   position: relative;
+   border: solid 2px yellow;
+}
+
+.big-container {
+   position: relative;
+   max-width: 1000px;
+   margin: auto;
+/*   border: solid 2px red;
+*/}
+
+.howToplay {
+   position: relative;
+   max-width: 700px;
+   margin: auto;
+   border: solid 2px red;
+}
+
+.play-container {
+/*   top: 420px;*/
+   position: relative;
+   margin: 12px auto;
+   width: 300px;
+   color: white;
+   text-align: center;
+   font-size: 28px;
+}
+
+.slides {
+   position: absolute;
+   width: 1000px;
+   height: 500px;
+   opacity: 0;
+   transition: opacity 1s ease-in-out;
+   object-fit: cover;
+   object-position: 50% 50%;
+   top: 0;
+/*   border: solid 2px blue;
+*/}
+
+.slides.fadeImage {
+   opacity: 1;
+}
+
+.buttons-container {
+/*   top: 420px;*/
+   position: relative;
+   margin: 12px auto;
+   width: 780px;
+   color: white;
+   text-align: center;
+   font-size: 28px;
+}
+
+.left-arrow, .right-arrow, .dot-button {
+   cursor: pointer
+}
+.dot-button {
+   display: inline-block;
+   height:  12px;
+   width:   12px;
+   border: 1px solid white;
+   border-radius: 50%;
+   color: yellow;
+   transition: background-color .3s, color .15s, opacity 0.3s;
+
+}
+.dot-button:hover {
+   background-color: white;
+}
+
+.dot-filled {
+   background-color: white;
+
+}
+
+.left-arrow {
+   float: left;
+   padding-left: 220px;
+
+}
+.right-arrow {
+   float: right;
+   padding-right: 220px;
+}
+.left-arrow, .right-arrow {
+   color: rgba(255, 255, 255, 0.2);
+   transition: background-color .3s, color .15s, opacity 0.3s;
+}
+.left-arrow:hover, .right-arrow:hover {
+   color: white;
+}
+
+
